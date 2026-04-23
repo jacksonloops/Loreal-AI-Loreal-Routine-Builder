@@ -3,18 +3,6 @@
    Brand Stylesheet
    ============================================ */
 
-/* —— @font-face for Halesworth (chat body text) —— */
-@font-face {
-  font-family: "Halesworth";
-  src:
-    url("Halesworth.woff2") format("woff2"),
-    url("Halesworth.woff") format("woff"),
-    url("Halesworth.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* —— CSS Variables —— */
 :root {
   /* Brand palette */
@@ -33,7 +21,7 @@
   /* Typography */
   --font-display:
     "Big Caslon", "Libre Caslon Display", "Playfair Display", "Georgia", serif;
-  --font-chat: "Halesworth", "Georgia", "Times New Roman", serif;
+  --font-chat: "Cormorant Garamond", "Georgia", "Times New Roman", serif;
   --font-ui: "Montserrat", "Helvetica Neue", Arial, sans-serif;
 
   /* Spacing */
@@ -632,7 +620,7 @@ body::before {
   height: 340px;
   padding: 28px 24px;
   font-family: var(--font-chat);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.7;
   overflow-y: auto;
   background: var(--loreal-off-white);
@@ -730,7 +718,7 @@ body::before {
   padding: 16px 20px;
   border: none;
   font-family: var(--font-chat);
-  font-size: 15px;
+  font-size: 16px;
   color: var(--loreal-black);
   background: var(--loreal-white);
   transition: background 0.2s ease;
@@ -912,12 +900,12 @@ body::before {
   .chat-window {
     height: 300px;
     padding: 20px 16px;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .chat-form input {
     padding: 14px 16px;
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .header-logo {
